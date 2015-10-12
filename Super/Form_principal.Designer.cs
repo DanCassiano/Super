@@ -33,7 +33,7 @@
             this.moagemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pesagemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.painel_botoes2 = new Super.painel_botoes();
+            this.painelValvulaFervura = new Super.painel_botoes();
             this.painelValvulaBrasagem = new Super.painel_botoes();
             this.cano_simples6 = new Super.Cano_simples();
             this.valvulaBrasagem = new Super.valvula();
@@ -94,7 +94,7 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.painel_botoes2);
+            this.panel1.Controls.Add(this.painelValvulaFervura);
             this.panel1.Controls.Add(this.painelValvulaBrasagem);
             this.panel1.Controls.Add(this.cano_simples6);
             this.panel1.Controls.Add(this.valvulaBrasagem);
@@ -122,21 +122,23 @@
             this.panel1.Size = new System.Drawing.Size(1257, 566);
             this.panel1.TabIndex = 4;
             // 
-            // painel_botoes2
+            // painelValvulaFervura
             // 
-            this.painel_botoes2.Location = new System.Drawing.Point(306, 403);
-            this.painel_botoes2.Name = "painel_botoes2";
-            this.painel_botoes2.NomeComponente = null;
-            this.painel_botoes2.Size = new System.Drawing.Size(150, 99);
-            this.painel_botoes2.TabIndex = 19;
+            this.painelValvulaFervura.Location = new System.Drawing.Point(306, 400);
+            this.painelValvulaFervura.Name = "painelValvulaFervura";
+            this.painelValvulaFervura.NomeComponente = null;
+            this.painelValvulaFervura.Size = new System.Drawing.Size(150, 99);
+            this.painelValvulaFervura.TabIndex = 19;
+            this.painelValvulaFervura.Load += new System.EventHandler(this.painelValvulaFervura_Load);
             // 
             // painelValvulaBrasagem
             // 
-            this.painelValvulaBrasagem.Location = new System.Drawing.Point(306, 216);
+            this.painelValvulaBrasagem.Location = new System.Drawing.Point(306, 190);
             this.painelValvulaBrasagem.Name = "painelValvulaBrasagem";
             this.painelValvulaBrasagem.NomeComponente = null;
             this.painelValvulaBrasagem.Size = new System.Drawing.Size(150, 99);
             this.painelValvulaBrasagem.TabIndex = 18;
+            this.painelValvulaBrasagem.Load += new System.EventHandler(this.painelValvulaBrasagem_Load);
             // 
             // cano_simples6
             // 
@@ -167,11 +169,12 @@
             // 
             // painelBonbaAgua
             // 
-            this.painelBonbaAgua.Location = new System.Drawing.Point(306, 78);
+            this.painelBonbaAgua.Location = new System.Drawing.Point(306, 4);
             this.painelBonbaAgua.Name = "painelBonbaAgua";
             this.painelBonbaAgua.NomeComponente = null;
             this.painelBonbaAgua.Size = new System.Drawing.Size(150, 99);
             this.painelBonbaAgua.TabIndex = 15;
+            this.painelBonbaAgua.Load += new System.EventHandler(this.painelBonbaAgua_Load);
             // 
             // cano_simples3
             // 
@@ -217,7 +220,7 @@
             this.joelho4.BackColor = System.Drawing.Color.Transparent;
             this.joelho4.Location = new System.Drawing.Point(606, 426);
             this.joelho4.Name = "joelho4";
-            this.joelho4.Posicao = "right-bottom";
+            this.joelho4.Posicao = "left-bottom";
             this.joelho4.Size = new System.Drawing.Size(37, 30);
             this.joelho4.Status = false;
             this.joelho4.TabIndex = 13;
@@ -274,7 +277,7 @@
             this.j2.BackColor = System.Drawing.Color.Transparent;
             this.j2.Location = new System.Drawing.Point(481, 134);
             this.j2.Name = "j2";
-            this.j2.Posicao = "left-bottom";
+            this.j2.Posicao = "right-bottom";
             this.j2.Size = new System.Drawing.Size(38, 29);
             this.j2.Status = false;
             this.j2.TabIndex = 8;
@@ -297,9 +300,9 @@
             // 
             // panelaFervura
             // 
-            this.panelaFervura.labelPanela = "Panela";
+            this.panelaFervura.labelPanela = "Fervura";
             this.panelaFervura.LigatMotor = false;
-            this.panelaFervura.Location = new System.Drawing.Point(601, 403);
+            this.panelaFervura.Location = new System.Drawing.Point(601, 400);
             this.panelaFervura.Name = "panelaFervura";
             this.panelaFervura.Size = new System.Drawing.Size(115, 159);
             this.panelaFervura.TabIndex = 2;
@@ -314,7 +317,7 @@
             // 
             // panelaBrasagem
             // 
-            this.panelaBrasagem.labelPanela = "Panela";
+            this.panelaBrasagem.labelPanela = "Brasagem";
             this.panelaBrasagem.LigatMotor = false;
             this.panelaBrasagem.Location = new System.Drawing.Point(601, 185);
             this.panelaBrasagem.Name = "panelaBrasagem";
@@ -371,7 +374,7 @@
         private painel_botoes painelBonbaAgua;
         private Cano_simples cano_simples6;
         private Cano_simples cano_simples5;
-        private painel_botoes painel_botoes2;
+        private painel_botoes painelValvulaFervura;
         private painel_botoes painelValvulaBrasagem;        
     }
 }

@@ -51,7 +51,7 @@ namespace Super
                     if (value == "left-bottom")
                     {
                         if (status)
-                            ptJoelho.Image = Super.Properties.Resources.joelho_right_bottom_agua;
+                            ptJoelho.Image = Super.Properties.Resources.joelho_left_bottom_agua;
                         else
                             ptJoelho.Image = Super.Properties.Resources.joelho_left_bottomvazio;
                     }

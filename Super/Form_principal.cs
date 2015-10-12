@@ -45,10 +45,17 @@ namespace Super
         {
             painelBrasagem.btnOnOF.Click +=new EventHandler(ligaMotorBrasagem);
             painelFervura.btnOnOF.Click += new EventHandler(ligaMotorFervura);
-
             painelBonbaAgua.btnOnOF.Click += new EventHandler(LigaBombaAgua);
-
             painelValvulaBrasagem.btnOnOF.Click += new EventHandler(AcionaValvulaBrassagem);
+            painelValvulaFervura.btnOnOF.Click += new EventHandler(AcionaValvulaFervura);
+        }
+
+        public void AcionaValvulaFervura(object sender, EventArgs e)
+        {
+            bool status = !valvula3.StatusDaValvula;
+            valvula3.StatusDaValvula = status;
+            cano_simples6.TemLiguido = status;
+            joelho4.Status = status;
         }
 
         public void AcionaValvulaBrassagem(object sender, EventArgs e)
@@ -56,8 +63,7 @@ namespace Super
             bool status = !valvulaBrasagem.StatusDaValvula;
             valvulaBrasagem.StatusDaValvula = status;
             
-            joelho3.Status = status;
-            joelho3.Posicao = "right-bottom";
+            joelho3.Status = status;            
             cano_simples5.TemLiguido = status;
         }
 
@@ -91,6 +97,21 @@ namespace Super
         private void cano_simples3_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void painelBonbaAgua_Load(object sender, EventArgs e)
+        {
+            painelBonbaAgua.lblNomeComponente.Text = "Valvula geral de água";
+        }
+
+        private void painelValvulaBrasagem_Load(object sender, EventArgs e)
+        {
+            painelValvulaBrasagem.lblNomeComponente.Text = "Valvula água Brasagem";
+        }
+
+        private void painelValvulaFervura_Load(object sender, EventArgs e)
+        {
+            painelValvulaFervura.lblNomeComponente.Text = "Valvula água Fervura";
         }
     }
 }

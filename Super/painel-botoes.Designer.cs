@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnOnOF = new System.Windows.Forms.Button();
             this.lblNomeComponente = new System.Windows.Forms.Label();
+            this.btnOnOF = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,6 +44,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(150, 99);
             this.panel1.TabIndex = 0;
+            // 
+            // lblNomeComponente
+            // 
+            this.lblNomeComponente.BackColor = System.Drawing.Color.Transparent;
+            this.lblNomeComponente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeComponente.Location = new System.Drawing.Point(3, 55);
+            this.lblNomeComponente.Name = "lblNomeComponente";
+            this.lblNomeComponente.Size = new System.Drawing.Size(141, 42);
+            this.lblNomeComponente.TabIndex = 1;
+            this.lblNomeComponente.Text = "Componente";
+            this.lblNomeComponente.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnOnOF
             // 
@@ -60,16 +71,6 @@
             this.btnOnOF.UseVisualStyleBackColor = false;
             this.btnOnOF.Click += new System.EventHandler(this.btnOnOF_Click);
             // 
-            // lblNomeComponente
-            // 
-            this.lblNomeComponente.AutoSize = true;
-            this.lblNomeComponente.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomeComponente.Location = new System.Drawing.Point(2, 55);
-            this.lblNomeComponente.Name = "lblNomeComponente";
-            this.lblNomeComponente.Size = new System.Drawing.Size(104, 18);
-            this.lblNomeComponente.TabIndex = 1;
-            this.lblNomeComponente.Text = "Componente";
-            // 
             // painel_botoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -78,7 +79,6 @@
             this.Name = "painel_botoes";
             this.Size = new System.Drawing.Size(150, 99);
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -87,6 +87,6 @@
 
         private System.Windows.Forms.Panel panel1;
         public System.Windows.Forms.Button btnOnOF;
-        public System.Windows.Forms.Label lblNomeComponente;
+        internal System.Windows.Forms.Label lblNomeComponente;
     }
 }

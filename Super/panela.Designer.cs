@@ -37,14 +37,14 @@
             // 
             // lblPanela
             // 
-            this.lblPanela.AutoSize = true;
             this.lblPanela.BackColor = System.Drawing.Color.Transparent;
             this.lblPanela.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblPanela.Location = new System.Drawing.Point(29, 89);
+            this.lblPanela.Location = new System.Drawing.Point(18, 89);
             this.lblPanela.Name = "lblPanela";
-            this.lblPanela.Size = new System.Drawing.Size(58, 20);
+            this.lblPanela.Size = new System.Drawing.Size(80, 27);
             this.lblPanela.TabIndex = 5;
             this.lblPanela.Text = "Panela";
+            this.lblPanela.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblPanela.Click += new System.EventHandler(this.lblPanela_Click);
             // 
             // picBoxMotor
@@ -81,7 +81,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.picBoxMotor)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
