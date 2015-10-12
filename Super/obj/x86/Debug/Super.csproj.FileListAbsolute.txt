@@ -1,0 +1,33 @@
+C:\Users\Dan\AppData\Local\Temporary Projects\Super\bin\Debug\Super.exe
+C:\Users\Dan\AppData\Local\Temporary Projects\Super\bin\Debug\Super.pdb
+C:\Users\Dan\AppData\Local\Temporary Projects\Super\obj\x86\Debug\Super.form_principal.resources
+C:\Users\Dan\AppData\Local\Temporary Projects\Super\obj\x86\Debug\Super.Properties.Resources.resources
+C:\Users\Dan\AppData\Local\Temporary Projects\Super\obj\x86\Debug\Super.csproj.GenerateResource.Cache
+C:\Users\Dan\AppData\Local\Temporary Projects\Super\obj\x86\Debug\Super.exe
+C:\Users\Dan\AppData\Local\Temporary Projects\Super\obj\x86\Debug\Super.pdb
+C:\Users\Dan\documents\visual studio 2010\Projects\Super\Super\obj\x86\Debug\Super.exe
+C:\Users\Dan\documents\visual studio 2010\Projects\Super\Super\obj\x86\Debug\Super.pdb
+C:\Users\Dan\documents\visual studio 2010\Projects\Super\Super\bin\Debug\Super.exe
+C:\Users\Dan\documents\visual studio 2010\Projects\Super\Super\bin\Debug\Super.pdb
+C:\Users\Dan\documents\visual studio 2010\Projects\Super\Super\obj\x86\Debug\Super.Form_moagem.resources
+C:\Users\Dan\documents\visual studio 2010\Projects\Super\Super\obj\x86\Debug\Super.form_principal.resources
+C:\Users\Dan\documents\visual studio 2010\Projects\Super\Super\obj\x86\Debug\Super.Properties.Resources.resources
+C:\Users\Dan\documents\visual studio 2010\Projects\Super\Super\obj\x86\Debug\Super.csproj.GenerateResource.Cache
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\obj\x86\Debug\Super.Form_pesagem.resources
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\bin\Debug\AdvancedHMIDrivers.dll
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\bin\Debug\MfgControl.AdvancedHMI.Drivers.dll
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\bin\Debug\OpcComRcw.dll
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\bin\Debug\OpcNetApi.Com.dll
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\bin\Debug\OpcNetApi.dll
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\bin\Debug\AdvancedHMIDrivers.pdb
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\bin\Debug\AdvancedHMIDrivers.xml
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\bin\Debug\OpcNetApi.xml
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\bin\Debug\OpcNetApi.Com.xml
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\obj\x86\Debug\Super.csprojResolveAssemblyReference.cache
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\obj\x86\Debug\Super.panela.resources
+C:\Users\Dan\documents\visual studio 2010\Projects\Super\Super\obj\x86\Debug\Super.bomba.resources
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\obj\x86\Debug\Super.galao_agua.resources
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\obj\x86\Debug\Super.painel_botoes.resources
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\obj\x86\Debug\Super.Cano_simples.resources
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\obj\x86\Debug\Super.joelho.resources
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\obj\x86\Debug\Super.valvula.resources
