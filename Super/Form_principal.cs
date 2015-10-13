@@ -17,6 +17,21 @@ namespace Super
 
         }
 
+        private void MakeTransparentControls(Control parent)
+        {
+            if (parent.Controls != null && parent.Controls.Count > 0)
+            {
+                foreach (Control control in parent.Controls)
+                {
+                    if ((control is PictureBox) || (control is Label) || (control is GroupBox) || (control is CheckBox))
+                        control.BackColor = Color.Transparent;
+
+                    if (control.Controls != null && control.Controls.Count > 0)
+                        MakeTransparentControls(control);
+                }
+            }
+        }
+
         private void moagemToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form f = new Form_moagem();
@@ -48,6 +63,9 @@ namespace Super
             painelBonbaAgua.btnOnOF.Click += new EventHandler(LigaBombaAgua);
             painelValvulaBrasagem.btnOnOF.Click += new EventHandler(AcionaValvulaBrassagem);
             painelValvulaFervura.btnOnOF.Click += new EventHandler(AcionaValvulaFervura);
+
+            //MakeTransparentControls(this);
+
         }
 
         public void AcionaValvulaFervura(object sender, EventArgs e)
@@ -112,6 +130,16 @@ namespace Super
         private void painelValvulaFervura_Load(object sender, EventArgs e)
         {
             painelValvulaFervura.lblNomeComponente.Text = "Valvula água Fervura";
+        }
+
+        private void painelBrasagem_Load(object sender, EventArgs e)
+        {
+            painelBrasagem.lblNomeComponente.Text = "Motor da Brasagem";
+        }
+
+        private void painelFervura_Load(object sender, EventArgs e)
+        {
+            painelFervura.lblNomeComponente.Text = "Motor da Fervura";
         }
     }
 }

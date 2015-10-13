@@ -51,6 +51,7 @@
             this.Name = "valvula";
             this.Size = new System.Drawing.Size(32, 44);
             this.Load += new System.EventHandler(this.valvula_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.valvula_Paint);
             ((System.ComponentModel.ISupportInitialize)(this.ptValvula)).EndInit();
             this.ResumeLayout(false);
 
@@ -59,5 +60,6 @@
         #endregion
 
         private System.Windows.Forms.PictureBox ptValvula;
+
     }
 }

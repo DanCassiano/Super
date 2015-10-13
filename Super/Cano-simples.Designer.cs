@@ -34,6 +34,7 @@
             // 
             // picBoxCano
             // 
+            this.picBoxCano.BackColor = System.Drawing.Color.Transparent;
             this.picBoxCano.Dock = System.Windows.Forms.DockStyle.Fill;
             this.picBoxCano.Image = global::Super.Properties.Resources.cano_vazio___Copia;
             this.picBoxCano.Location = new System.Drawing.Point(0, 0);
@@ -42,6 +43,7 @@
             this.picBoxCano.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBoxCano.TabIndex = 0;
             this.picBoxCano.TabStop = false;
+            this.picBoxCano.Click += new System.EventHandler(this.picBoxCano_Click);
             // 
             // Cano_simples
             // 
@@ -51,6 +53,7 @@
             this.Name = "Cano_simples";
             this.Size = new System.Drawing.Size(44, 477);
             this.Load += new System.EventHandler(this.Cano_simples_Load);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.OnPaintBackground);
             ((System.ComponentModel.ISupportInitialize)(this.picBoxCano)).EndInit();
             this.ResumeLayout(false);
 

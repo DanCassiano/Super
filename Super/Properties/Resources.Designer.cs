@@ -303,6 +303,16 @@ namespace Super.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap reservatorio {
+            get {
+                object obj = ResourceManager.GetObject("reservatorio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap valvula_off {
             get {
                 object obj = ResourceManager.GetObject("valvula_off", resourceCulture);

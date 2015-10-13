@@ -20,6 +20,21 @@ namespace Super
             posicao = false;
         }
 
+        //protected override CreateParams CreateParams
+        //{
+        //    get
+        //    {
+        //        CreateParams cp = base.CreateParams;
+        //        cp.ExStyle |= 0x20;
+        //        return cp;
+        //    }
+        //}
+
+        //protected override void OnPaintBackground(PaintEventArgs e)
+        //{
+        //    base.OnPaintBackground(e);
+        //}
+
         public bool PosicaoCano
         {
             set {
@@ -69,6 +84,16 @@ namespace Super
         private void Cano_simples_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void picBoxCano_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void OnPaintBackground(object sender, PaintEventArgs e)
+        {
+            //OnPaintBackground(e);
         }
     }
 }

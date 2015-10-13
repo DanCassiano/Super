@@ -118,88 +118,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="agua-3d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\agua-3d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cano-vazio - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cano-vazio - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="joelho-left-bottom-agua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joelho-left-bottom-agua.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="joelho-right-bottom-vazio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\joelho-right-bottom-vazio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="joelho-left-bottomvazio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\joelho-left-bottomvazio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bomba-off-left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bomba-off-left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bomba-off-right-bottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bomba-off-right-bottom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="valvula_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\valvula_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="valvula_off_horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\valvula_off_horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bomba-off-right" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bomba-off-right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bomba-on-right-botom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bomba-on-right-botom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="bomba-off-left-bottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bomba-off-left-bottom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bomba-on-left-botom" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bomba-on-left-botom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="panela" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\panela1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="joelho-right-top-vazio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\joelho-right-top-vazio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="joelho-left-top-vazio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\joelho-left-top-vazio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="motor_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\motor_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cano-vazio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cano-vazio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="motor-on" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\motor-on1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="valvula_on_horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\valvula_on_horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cano-agua" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cano-agua.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bomba-on-left" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bomba-on-left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="valvula_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\valvula_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bomba-on-right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bomba-on-right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cano-agua - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cano-agua - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cano-vazio - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cano-vazio - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="joelho-left-bottom-agua" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\joelho-left-bottom-agua.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="valvula_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\valvula_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="joelho-left-top-agua" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\joelho-left-top-agua.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="valvula_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\valvula_on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joelho-right-top-vazio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joelho-right-top-vazio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bomba-off-left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bomba-off-left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cano-vazio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cano-vazio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bomba-off-right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bomba-off-right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="valvula_on_horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\valvula_on_horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="valvula_off_horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\valvula_off_horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bomba-on-right-botom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bomba-on-right-botom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agua-3d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agua-3d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="joelho-right-bottom-agua" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\joelho-right-bottom-agua.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cano-agua - Copia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cano-agua - Copia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joelho-left-bottomvazio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joelho-left-bottomvazio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joelho-left-top-vazio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joelho-left-top-vazio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="motor-on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\motor-on1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bomba-off-right-bottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bomba-off-right-bottom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="panela" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\panela1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cano-agua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cano-agua.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joelho-left-top-agua" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joelho-left-top-agua.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="joelho-right-top-agua" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\joelho-right-top-agua.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bomba-on-left-botom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bomba-on-left-botom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="motor_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\motor_off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bomba-on-left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bomba-on-left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reservatorio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reservatorio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

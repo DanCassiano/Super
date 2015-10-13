@@ -31,3 +31,4 @@ C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\obj\x86\Debug\Sup
 C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\obj\x86\Debug\Super.Cano_simples.resources
 C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\obj\x86\Debug\Super.joelho.resources
 C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\obj\x86\Debug\Super.valvula.resources
+C:\Users\Dan\Documents\Visual Studio 2010\Projects\Super\Super\obj\x86\Debug\Super.Panela_simples.resources

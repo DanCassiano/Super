@@ -39,20 +39,21 @@
             // 
             this.lblPanela.BackColor = System.Drawing.Color.Transparent;
             this.lblPanela.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.lblPanela.Location = new System.Drawing.Point(18, 89);
+            this.lblPanela.Location = new System.Drawing.Point(22, 89);
             this.lblPanela.Name = "lblPanela";
-            this.lblPanela.Size = new System.Drawing.Size(80, 27);
+            this.lblPanela.Size = new System.Drawing.Size(74, 37);
             this.lblPanela.TabIndex = 5;
             this.lblPanela.Text = "Panela";
             this.lblPanela.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblPanela.UseCompatibleTextRendering = true;
             this.lblPanela.Click += new System.EventHandler(this.lblPanela_Click);
             // 
             // picBoxMotor
             // 
             this.picBoxMotor.Image = global::Super.Properties.Resources.motor_off;
-            this.picBoxMotor.Location = new System.Drawing.Point(33, 0);
+            this.picBoxMotor.Location = new System.Drawing.Point(33, 10);
             this.picBoxMotor.Name = "picBoxMotor";
-            this.picBoxMotor.Size = new System.Drawing.Size(64, 55);
+            this.picBoxMotor.Size = new System.Drawing.Size(64, 45);
             this.picBoxMotor.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBoxMotor.TabIndex = 3;
             this.picBoxMotor.TabStop = false;

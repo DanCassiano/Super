@@ -39,8 +39,8 @@
             this.picBoxBomba.Image = global::Super.Properties.Resources.bomba_on_right_botom;
             this.picBoxBomba.Location = new System.Drawing.Point(0, 0);
             this.picBoxBomba.Name = "picBoxBomba";
-            this.picBoxBomba.Size = new System.Drawing.Size(115, 87);
-            this.picBoxBomba.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.picBoxBomba.Size = new System.Drawing.Size(57, 48);
+            this.picBoxBomba.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBoxBomba.TabIndex = 0;
             this.picBoxBomba.TabStop = false;
             // 
@@ -50,7 +50,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.picBoxBomba);
             this.Name = "bomba";
-            this.Size = new System.Drawing.Size(115, 87);
+            this.Size = new System.Drawing.Size(57, 48);
             ((System.ComponentModel.ISupportInitialize)(this.picBoxBomba)).EndInit();
             this.ResumeLayout(false);
 

@@ -75,5 +75,25 @@ namespace Super
         {
 
         }
+
+        //protected override CreateParams CreateParams
+        //{
+        //    get
+        //    {
+        //        CreateParams cp = base.CreateParams;
+        //        cp.ExStyle |= 0x20;
+        //        return cp;
+        //    }
+        //}
+
+        //protected override void OnPaintBackground(PaintEventArgs e)
+        //{
+        //    base.OnPaintBackground(e);
+        //}
+
+        private void valvula_Paint(object sender, PaintEventArgs e)
+        {
+            //OnPaintBackground(e);
+        }
     }
 }
